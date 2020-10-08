@@ -191,36 +191,36 @@ void unloadGame(void){
 
 void cactusRender(void){
     
-    cactus[0].cactus = LoadTexture("Cactus1.png");
-    cactus[1].cactus = LoadTexture("Cactus2.png");
-    cactus[2].cactus = LoadTexture("Cactus3.png");
-    cactus[3].cactus = LoadTexture("MultiCactus.png");
+    cactus[0].cactus = LoadTexture("assets/Cactus1.png");
+    cactus[1].cactus = LoadTexture("assets/Cactus2.png");
+    cactus[2].cactus = LoadTexture("assets/Cactus3.png");
+    cactus[3].cactus = LoadTexture("assets/MultiCactus.png");
     
 }
 
 void unitRender(void){
     
-    unit.unit_still = LoadTexture("Still.png");
-    unit.motion = LoadTexture("motion.png");
-    unit.sleep = LoadTexture("sleeping.png");
-    unit.gameover = LoadTexture("Gameover.png");
-    unit.surprise = LoadTexture("Surprise.png");
+    unit.unit_still = LoadTexture("assets/Still.png");
+    unit.motion = LoadTexture("assets/motion.png");
+    unit.sleep = LoadTexture("assets/sleeping.png");
+    unit.gameover = LoadTexture("assets/Gameover.png");
+    unit.surprise = LoadTexture("assets/Surprise.png");
     
 }
 
 void mapRender(void){
     
-    map.foreground = LoadTexture("foreground.png");
-    map.background = LoadTexture("Background.png");
-    map.moon = LoadTexture("Moon.png");
-    map.meteor = LoadTexture("Meteor.png");
+    map.foreground = LoadTexture("assets/foreground.png");
+    map.background = LoadTexture("assets/Background.png");
+    map.moon = LoadTexture("assets/Moon.png");
+    map.meteor = LoadTexture("assets/Meteor.png");
     
 }
 
 void etcRender(void){
     
-    gamefont.font = LoadFont("PressStart2P-Regular.ttf");
-    loadpage.screen = LoadTexture("Firstpage.png");
+    gamefont.font = LoadFont("assets/PressStart2P-Regular.ttf");
+    loadpage.screen = LoadTexture("assets/Firstpage.png");
     
 }
 
